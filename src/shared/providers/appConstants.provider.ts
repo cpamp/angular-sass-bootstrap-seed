@@ -14,6 +14,6 @@ export class AppConstantsProvider {
 }
 
 export interface IApplication {
-    Name: string;
-    Version: string;
+    readonly Name: string;
+    readonly Version: string;
 }
